@@ -1,4 +1,4 @@
-# MERN-portfolio (Assignment 01)
+# portfolio (01)
 
 https://ahmed-at-github.github.io/MERN-portfolio/
 
