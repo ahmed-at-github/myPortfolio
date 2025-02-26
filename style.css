@@ -71,7 +71,7 @@ body {
   color: #9a99ff;
 }
 
-/*will apply for larger than 768px */
+/*will apply for screen larger than 768px */
 @media (min-width: 768px) {
   body {
     margin: 10px 60px;
