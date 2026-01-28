@@ -7,12 +7,18 @@
     <title>Ahmed web dev</title>
 
     <!-- external CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- SCRIPT -->
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <!-- ICON -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -21,196 +27,86 @@
 </head>
 
 <body>
-    <!-- HEADER START -->
-    <div class="header-area">
-        <div class="header">
-            <div class="logo"><img src="./asset/logo-retina.png" alt="logo" ></div>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#home">_home</a></li>
-                    <li><a href="#about">_about</a></li>
-                    <li><a href="#portfolio">_portfolio</a></li>
-                    <li><a href="#skill">_skill</a></li>
-                    <li><a href="#contact">_contact</a></li>
-                </ul>
-            </nav>
+    <div class=" bg-[#212121]">
+        <!-- Line Sidebar -->
+        <div class="md:flex justify-between md:fixed md:min-w-16">
+            <!-- Line code -->
+            <ul class="md:text-xl text-[#6E6E6E] p-1 font-extralight text-end">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+                <li>32</li>
+                <li>33</li>
+                <li>34</li>
+                <li>35</li>
+                <li>36</li>
+                <li>37</li>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+                <li>41</li>
+                <li>42</li>
+                <li>43</li>
+                <li>44</li>
+                <li>45</li>
+                <li>46</li>
+                <li>47</li>
+                <li>48</li>
+                <li>49</li>
+                <li>50</li>
+            </ul>
+            <div class="bg-[#6E6E6E] w-[1px]"></div>
         </div>
-    </div>
-    <!-- HEADER END -->
 
-    <!-- HERO START -->
-    <div class="hero-area">
-        <div id="home" class="hero">
-            <h1 class="hero-title">
-                // Hello, I am Ahmed, a ...
-                <span class="dev"> {" Web Developer "}
-                </span>
-                <span class="rot">==></span>
-            </h1>
-            <div class="hero-banner">
-                <img src="./asset/bg-02.jpg" alt="hero-banner-img">
-            </div>
-        </div>
-    </div>
-    <!-- HERO ENDS -->
-
-    <!-- ABOUT START -->
-    <div id="about" class="about-area">
-        <div class="about">
-            <div class="about-top">
-                <p class="about-sub">{/}</p>
-                <h2 class="about-head">
-                    < about_me>
-                </h2>
-                <p class="about-para">...lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus
-                    nec ullamcorper mattis. </p>
-            </div>
-            <div class="about-left">
-                <p class="ab-left">...I have over 12 years of experience in web development, with a strong background in
-                    both front-end and back-end technologies;</p>
-            </div>
-            <div class="about-right">
-                <p class="ab-right">…curabitur sit amet luctus tortor, sit amet ultrices ante. Maecenas convallis dui
-                    arcu, et tempor felis consectetur vel. Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia curae; Sed id velit ex. Cras ultricies nisi eget sem mollis, a maximus
-                    felis laoreet. Nam eget ultricies urna, vel ullamcorper arcu. Quisque feugiat rhoncus arcu, a
-                    tincidunt arcu lacinia ac. Maecenas molestie vel ante in finibus. Sed sit amet ligula eros. In hac
-                    habitasse platea dictumst;</p>
-            </div>
-           
-        </div>
-        <button class="about-btn">{read_more}</button>
-    </div>
-    <!-- ABOUT ENDS -->
-
-    <!-- PORTFOLIO STRAT -->
-    <div id="portfolio" class="port-area">
-        <div class="port">
-            <div class="port-top">
-                <p class="p-sub">(!)</p>
-                <h2 class="p-head">
-                    < portfolio>
-                </h2>
-                <p class="p-para">...lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                    ullamcorper mattis ullamcorper arcu. </p>
-            </div>
-            <div class="port-card">
-                <!-- 4 to 6 card -->
-                <div class="card-img">
-                    <img src="./asset/card-img.jpeg" alt="port-img">
+        <div class="ml-16">
+            <!-- NAVBAR START -->
+            <div>
+                <div class="">
+                    <!-- <div class="">
+                        <img src="./asset/logo-retina.png" alt="logo">
+                    </div> -->
+                    <nav class="">
+                        <ul>
+                            <li><a href="#home">_home</a></li>
+                            <li><a href="#about">_about</a></li>
+                            <li><a href="#portfolio">_portfolio</a></li>
+                            <li><a href="#skill">_skill</a></li>
+                            <li><a href="#contact">_contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <p class="card-text">{ jane blogger }</p>
-                <p class="card-para">//...website design & lorem ipsum dolor sit amet, consectetur adipiscing elit; ut
-                    elit tellus, luctus nec ullamcorper mattis;</p>
             </div>
-            <div class="port-card"></div>
+            <!-- NAVBAR END -->
         </div>
+
     </div>
-    <!-- PORTFOLIO END -->
-
-    <!-- SKILL  START -->
-    <div id="skill" class="skill-area">
-        <div class="skill">
-            <div class="skill-top">
-                <p class="s-sub">{#}</p>
-                <h2 class="s-head">
-                    < skills >
-                </h2>
-                <p class="s-para">
-                    ...lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                    mattis. </p>
-            </div>
-            <div class="skill-card">
-                <div class="skill-text"> {" HTML "}</div>
-                <div class="skill-text"> {" CSS "}</div>
-                <div class="skill-text"> {" JS "}</div>
-               
-              
-                <!-- HTML -->
-                 <!-- CSS -->
-                  <!-- JS -->
-            </div>
-            <div class="skill-card"></div>
-            <button class="skill-btn">{all_skills}</button>
-        </div>
-    </div>
-    <!-- SKILL END -->
-
-    <!-- IMG START -->
-    <!-- <div class="img-area">
-        <div class="img">
-            <img src="#" alt="IMG">
-        </div>
-    </div> -->
-    <!-- IMG END -->
-
-    <!-- CONTACT START -->
-    <div id="contact" class="contact-area">
-        <div class="contact">
-            <div class="contact-top">
-                <p class="c-sub">{*}</p>
-                <h2 class="c-head">
-                    < contact_me>
-                </h2>
-                <p class="c-para">...lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
-                    ullamcorper mattis. </p>
-            </div>
-            <div class="contact-form">
-                <form autocomplete="off">
-                    <div class="form">
-                        <div class="form-name"></div>
-                        <label for="name"></label>
-                        <input id="name" type="text" placeholder="_name*">
-                    </div>
-                    <div class="form">
-                        <div class="form-name"></div>
-                        <label for="email"></label>
-                        <input id="email" type="email" placeholder="_email*">
-                    </div>
-                    <div class="form">
-                        <div class="form-name"></div>
-                        <label for="message"></label>
-                        <textarea id="message" name="" id="" placeholder="_message*"></textarea>
-                    </div>
-                </form>
-                    <button class="form-btn">{ send }</button>
-                    </div>
-                   
-                    
-                    </div>
-                   
-                
-            </div>
-        </div>
-    </div>
-    <!-- CONTACT END -->
-
-    <!-- FOOTER START -->
-    <div class="footer-area">
-        <div class="footer">
-            <div class="foot-top">
-                <ul>
-                    <li><a href="#home">_home</a></li>
-                    <li><a href="#about">_about</a></li>
-                    <li><a href="#portfolio">_portfolio</a></li>
-                    <li><a href="#skill">_skill</a></li>
-                    <li><a href="#contact">_contact</a></li>
-                </ul>
-            </div>
-            <div class="foot-centre">
-                <!-- icons-img -->
-                <a href="https://www.facebook.com/ahmedhussainfb/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
-                <a href="https://github.com/ahmed-at-github" target="_blank"><i class="fa-brands fa-github"></i></a>
-
-                <a href="https://t.me/ahmd3102" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-                
-            </div>
-            <div class="foot-bottom">
-                <p class="copyright">Copyright © 2024 Ahmed web dev Portfolio</p>
-            </div>
-        </div>
-    </div>
-    <!-- FOOTER END -->
 </body>
 
 </html>
